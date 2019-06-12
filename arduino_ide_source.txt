@@ -26,7 +26,7 @@ String getPage(){
 void setup() {
   pinMode(buzzer, OUTPUT);
   Serial.begin(115200);
-  WiFi.begin("Livebox-7ECF", "C9454920A09AA0353E0468654A");  //Connect to the WiFi network
+  WiFi.begin("SSID_DE_LA_BOX", "CLE_WPA_OU_WSK");  //Connect to the WiFi network
  
   while (WiFi.status() != WL_CONNECTED) {  //Wait for connection
  
